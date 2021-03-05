@@ -1,0 +1,284 @@
+body {
+	font-family: 'Hammersmith One', sans-serif;
+	background: linear-gradient(pink, lightblue);
+}
+
+header {
+	padding: 20px;
+	text-align:center;
+}
+
+.main-home {
+	margin-top: -36px;
+}
+
+.logo {
+	width: 20%;
+	height: 20%;
+	margin: 15px auto;
+	
+}
+
+.link-cardapio {
+	text-align: center;
+	margin-top: 35px;
+}
+ 
+.link-cardapio a{
+	text-decoration: none;
+	font-size: 18px;
+	padding:20px 20px;
+	border: 2px solid #000000;
+	border-radius:15px;
+	font-size: 35px;
+}
+
+.redes-sociais{
+	text-align: center;
+}
+
+h2{
+	font-size: 35px;
+	margin:50px 0 10px;
+}
+
+.redes-sociais li {
+	margin:10px, 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius:15px;
+	padding:20px 20px;
+	margin-bottom: 10px;
+}
+
+.icones {
+	width:50px;
+	height:50px;
+	vertical-align: center;
+}
+
+.mapa-conteudo {
+	text-align: center;
+}
+
+.mapa-conteudo h3 {
+	display:inline-block;
+	font-size: 2em;
+	margin: 1em auto .5em;
+}
+
+.mapa-conteudo p {
+	font-size: 16px;
+	margin: 8px;
+}
+
+footer {
+	text-align: center;
+	background: lightblue;
+	padding:30px 0;
+}
+
+footer p {
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.imagem-footer {
+	width: 10%;
+}
+
+/* CSS CARDAPIO*/
+
+header a{
+	margin:10px, 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius:15px;
+	padding:20px 20px;
+	text-decoration: none;
+}
+
+.container {
+	width:70%;
+	height:100%;
+	margin: 0 auto;
+}
+
+h4 {
+	font-size: 2.5em;
+	font-weight: bold;
+	padding: .5em;
+	border-bottom: 3px solid #511600;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+	color:#511600;
+	text-align: center;
+}
+
+.imagens-sorvetes{
+	width:50%;
+	height: 100px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.titulo-menu, .titulo-menu-p {
+	font-size: 2em;
+	padding: .5em;
+	border:none;
+	background: none;
+	cursor: pointer;
+	text-align:left;
+	color:#722D03;
+	text-align:center;
+	display:block;
+}
+
+.titulo-menu:after {
+	 content: '▼';
+	 font-size: 0.5em;
+	 vertical-align: middle;
+}
+
+.ativado {
+	font-size: 2em;
+	padding: .5em;
+	border:none;
+	background: none;
+	cursor: pointer;
+	text-align:left;
+	color:#722D03;
+}
+
+.ativado:after {
+	content: '▲';
+	font-size: 0.5em;
+	vertical-align: middle;
+}
+
+.itens-menu {
+	font-size: 1.3em;
+	padding-left:1em;
+	display: none;
+ 	overflow: hidden;
+ 	max-height: 0;
+ 	transition:max-height 0.4s ease-out;
+}
+
+.itens-menu p{
+	padding-bottom: .3em;
+}
+
+#precos {
+	text-align:left;
+}
+
+#precos p{
+	display:inline-block;
+	color:#F4FA70;
+	font-weight: bolder;
+	font-size: 1.2em;
+	
+	margin:0.3em 12px;
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		padding:15px;
+	}
+
+	.logo {
+		width: 50%;
+		height: 10%;
+	}
+
+	.redes-sociais li {
+	margin:20px, 10px;
+	padding:15px 15px;
+	}
+
+	.mapa-conteudo p {
+	font-size: 20px;
+	margin: 8px;
+	}
+
+	.mapa-conteudo h3 {
+	display:inline-block;
+	font-size: 2.6em;
+	margin: 1em auto .5em;
+	}
+
+	.imagem-footer {
+	width: 20%;
+	}
+
+	/* CSS Cardapio */
+
+	#precos {
+	text-align:center;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.titulo-menu, .titulo-menu-p {
+		font-size: 1.7em;
+    	text-align: left;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	header {
+		padding:15px;
+	}
+
+	.logo {
+		width: 50%;
+		height: 10%;
+	}
+
+	.link-cardapio a{
+		font-size:1.4em;
+	}
+
+	.redes-sociais
+
+	h2 {
+		font-size:2em;
+	}
+
+	.redes-sociais li {
+	margin:20px, 10px;
+	padding:15px 15px;
+	}
+
+	.mapa-conteudo h3 {
+	display:inline-block;
+	font-size: 2em;
+	margin: 1em auto .5em;
+	}
+
+	.mapa-conteudo p {
+	font-size: 20px;
+	margin: 8px;
+	}
+
+	.imagem-footer {
+	width: 20%;
+	}
+
+	/* CSS Cardapio */
+
+	h4 {
+		font-size: 2em;
+	}
+
+	.titulo-menu {
+		font-size: 1.5em;
+	}
+
+	#precos {
+	text-align:center;
+	}
+}
